@@ -1,0 +1,15 @@
+package net.naver.service;
+
+import java.util.List;
+
+import net.naver.vo.GongjiVO;
+
+public class GongjiServiceImpl implements GongjiService {
+
+	@Override
+	public List<GongjiVO> getGongjiList(GongjiVO g) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

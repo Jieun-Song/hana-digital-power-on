@@ -1,0 +1,15 @@
+package net.naver.dao;
+
+import java.util.List;
+
+import net.naver.vo.GongjiVO;
+
+public class GongjiDAOImpl implements GongjiDAO {
+
+	@Override
+	public List<GongjiVO> getGongjiList(GongjiVO g) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

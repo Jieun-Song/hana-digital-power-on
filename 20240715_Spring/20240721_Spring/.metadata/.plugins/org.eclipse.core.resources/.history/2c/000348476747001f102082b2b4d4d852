@@ -1,0 +1,5 @@
+package net.naver.dao;
+
+public interface GongjiDAO {
+
+}

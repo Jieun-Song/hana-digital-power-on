@@ -1,0 +1,69 @@
+package net.daum.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import net.daum.vo.ProductVO;
+
+//STS(이클립스) 개발툴에서 자동임포트는 ctrl+Shift+o
+
+@Controller//애노테이션을 추가함으로 써 스프링에서 컨트롤러로 인식하게 도니다.
+public class SampleController {
+	
+	@RequestMapping("/doA") //doA매핑주소등록, 매핑주소란 브라우저 주서창에서 실행되는 주석값이다.
+	//@RequestMapping은 get of post로접근하는 매핑주소를 처리한다.
+	public void doA(Model m) {
+		//리턴타입이 없는 void형이면 매핑주인 doA가 뷰페이지 파일명이 된다. 뷰리졸브 경로(뷰페이지 경로는 /WEB-INF/views/doA.jsp
+		
+		m.addAttribute("doA_key", "doA.jsp가 실행"); //doA_key이름에 값을 저장함.
+		System.out.println("doA 매핑주소가 실행되엇다.");
+	}
+	
+	@GetMapping("/doC") // @GetMapping은 get으로 접근하는 매핑주소를 처리, doA매ㅠㅣㅇ주소를 등록
+	public String doC(@ModelAttribute("msg") String name) {
+		//@ModelAttribute("msg")는 msg 파라미터이름에 인자값을 넣어 전달한다
+		//웹 주소에서 실행되는 매핑주소값으로 doC?msg=인자값형태의 웹주소창에 노출되는 get 방식으로 전달해야한다.
+		//보안상 좋지 않다.
+		return "result";//뷰페이지 경로는 /WEB-INT/views/result.jsp
+	}//doC()
+	
+	@GetMapping("/nameprice") // nameprice매핑주소 등록  
+	public ModelAndView nameprice() {
+		
+		ProductVO p = new ProductVO("냉장", 2540000);
+		
+		ModelAndView pm = new ModelAndView();
+		pm.addObject("p",p); // p키이름에 p객체 저장 
+		pm.setViewName("shop/pro_name"); //뷰리졸브 경로는 /WEB-INF/views/pshop/pro_nmae.jsp
+		return pm;
+	}//nameprice()
+
+	@RequestMapping("/doE")
+	public String doE(RedirectAttributes rttr) {
+		rttr.addFlashAttribute("msg2", "홍길동");
+		//다른 매핑주소로 msg 키이름에 홍길동을 담아서 전달한다.
+		//데이터가노출되지않아 주소창에 노출이안된다. 백엔드 서버단에서 실행된다. 보안상 좋다.
+		return "redirect:/doF";//doE매핑주소가 실행되면 doF매핑주소ㅗ 이동한다 redirect로 이동하는 방식은 get방식이다.
+	}//doE()
+	
+	@GetMapping("/doF")
+	public void doF(@ModelAttribute("msg2") String name) {
+		System.out.println("전달된 값: "+name);
+	}//doF()
+	
+	//키, 값 쌍의 json 데이터 생성 실습
+	@GetMapping("/doJSON")
+	public @ResponseBody ProductVO doJSON() {
+		// @ResponseBody 애노테이션을 사용한 JSP파일을 만들지 않고도 키,값 쌍의 json의 데이터를 쉽게 만들수이싿.
+		// 메서드 리턴타입이 ProducVO빈타입이면 해당 빈 클래스의 변수명이 json 데이터의 키이름이 된다.
+		ProductVO p = new ProductVO("수박",16000);
+		return p;
+	}//doJSON();
+	
+}

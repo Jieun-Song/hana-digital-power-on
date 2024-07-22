@@ -1,0 +1,5 @@
+package net.naver.service;
+
+public class GongjiServiceImpl implements GongjiService {
+
+}

@@ -1,0 +1,23 @@
+package net.daum.dao;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import net.daum.vo.BoardVO;
+
+@Repository
+public class BoardDAOImpl implements BoardDAO {
+	
+	@Autowired
+	private SqlSession sqlSession;
+
+	@Override
+	public void insertBoard(BoardVO b) {
+		this.sqlSession.insert("board_in", b);
+		//mybatis에서 insert()매서드는 레코드를 저장하고, board_in은 board.xml에서 설정할
+		//유일 아이디명이다.
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,17 @@
+package net.naver.vo;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class GongjiVO {
+
+	private int no; // 공지사항 번
+	private String name; //공지사항 작성자
+	private String title; // 공지사항 제목
+	private String cont; //공지사항 내용
+	private int hit; //공지사항 조회수
+	private String date; //등록날
+	
+}

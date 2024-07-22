@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "Gongji">
+
+<!-- 저장 -->
+<insert id =  "gongji_in" parameterType = "net.naver.vo.BoardVO">
+insert into tbl_gongji values(bno_seq.nextval, #{name}, #{title}, #{cont},#{hit}, sysdate)
+</insert>
+
+<!-- 목록  -->
+<select id="g_list" resultType = "gongji">
+	SELECT * FROM tbl_gongji ORDER BY bno DESC
+</select>
+
+<update id = "g_hit" parameterType ="int">
+	UPDATE tbl_gongji SET gongji_hit = gongji_hit + 1 WHERE gongji_no = #{bno}
+</update>
+</mapper>

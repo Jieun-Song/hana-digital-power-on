@@ -1,0 +1,26 @@
+package net.daum.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import net.daum.service.BoardService;
+
+@Controller
+@RequestMapping("/board/*") // 컨트롤러 자체 매핑주소 등록 
+public class BoardController {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	//게시판 글쓰기 폼
+	@RequestMapping(value="/board_write",method=RequestMethod.GET) // get으로 접근하는
+	//매핑주소처리, boardPwrite 매핑주소 등록
+	public void board_write() {
+		//리턴타입이 없는 void형이면 매핑주소가 뷰페이지 파일명이 된다. 뷰페이지 경로는 
+		// /WEB-INF/views/board/board_write.jsp
+		
+		
+	}//board_write()
+}

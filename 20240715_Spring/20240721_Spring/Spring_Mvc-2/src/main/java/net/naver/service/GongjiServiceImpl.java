@@ -1,0 +1,28 @@
+package net.naver.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import net.naver.dao.GongjiDAO;
+import net.naver.vo.GongjiVO;
+
+public class GongjiServiceImpl implements GongjiService {
+
+	@Autowired
+	private GongjiDAO gongjiDao;
+	
+	
+	@Override
+	public List<GongjiVO> getGongjiList(GongjiVO g) {
+		// TODO Auto-generated method stub
+		return this.gongjiDao.getGongjiList(g);
+	}
+
+
+	@Override
+	public void insertGongji(GongjiVO g) {
+		this.gongjiDao.insertGongji(g);
+	}
+
+}

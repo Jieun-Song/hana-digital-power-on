@@ -1,0 +1,11 @@
+package net.daum.service;
+
+import net.daum.vo.BoardVO;
+
+public interface BoardService {
+
+	void insertBoard(BoardVO b);
+
+	int getTotalCount();
+
+}

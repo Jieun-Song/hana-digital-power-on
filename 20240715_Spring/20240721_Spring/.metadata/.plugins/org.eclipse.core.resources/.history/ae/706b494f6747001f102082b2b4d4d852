@@ -1,0 +1,5 @@
+package net.naver.dao;
+
+public class GongjiDAOImpl implements GongjiDAO {
+
+}
