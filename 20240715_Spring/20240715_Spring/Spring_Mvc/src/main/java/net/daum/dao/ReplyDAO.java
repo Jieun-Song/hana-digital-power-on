@@ -13,5 +13,7 @@ public interface ReplyDAO {
 	void updateReply(ReplyVO vo);
 
 	void deleteReply(int rno);
+
+	int getBno(int rno);
 	
 }

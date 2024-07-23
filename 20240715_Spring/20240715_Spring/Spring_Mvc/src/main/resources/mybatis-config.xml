@@ -16,5 +16,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
      <typeAlias type="net.daum.vo.ReplyVO" alias = "reply"/>
      <typeAlias type="net.daum.vo.MessageVO" alias = "message"/>
      <typeAlias type="net.daum.vo.UserVO" alias = "user"/>
+     <typeAlias type="net.daum.vo.TestVO" alias = "test"/>
    </typeAliases>
 </configuration>

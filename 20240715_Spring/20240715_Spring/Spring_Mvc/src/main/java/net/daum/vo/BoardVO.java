@@ -12,6 +12,7 @@ public class BoardVO { // tbl_board 게시판 테이블 컬럼명 과 일치 하
 	private String content;//글내용
 	private int viewcnt; //조회수
 	private String regdate; // 등록날짜
+	private int replycnt;
 	
 	//페이징 쪽나누기 관련변수
 	private int startrow;//시작행 번호
@@ -64,6 +65,12 @@ public class BoardVO { // tbl_board 게시판 테이블 컬럼명 과 일치 하
 	}
 	public void setEndrow(int endrow) {
 		this.endrow = endrow;
+	}
+	public int getReplycnt() {
+		return replycnt;
+	}
+	public void setReplycnt(int replycnt) {
+		this.replycnt = replycnt;
 	}
 
 }

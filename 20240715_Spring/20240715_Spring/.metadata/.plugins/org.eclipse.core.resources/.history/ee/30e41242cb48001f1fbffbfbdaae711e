@@ -1,0 +1,15 @@
+package net.daum.service;
+
+import net.daum.dao.TestDAO;
+import net.daum.vo.TestVO;
+
+public class TestServiceImpl implements TestService {
+
+	private TestDAO testDao;
+	@Override
+	public void insertTest(TestVO t) {
+		this.testDao.insertTest(t);
+		
+	}
+
+}

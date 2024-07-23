@@ -55,7 +55,9 @@
    <button type="button" id="closeBtn" onclick="modDivClose();">닫기</button>
   </div>
  </div>
- 
+  <br/><hr/><br/>
+  [댓글 개수 : <span style = "color:red; background:yellow; font-size:12px; border-radiusL5px; padding:3px;
+  	box-shadow:3px 3px 3px gray;"> ${bc.replycnt} 개</span>]
  <div>
   <div>
    댓글 작성자 :<input type="text" name="replyer" id="newReplyWriter" />

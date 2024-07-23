@@ -18,13 +18,14 @@ public class MessageController {
 	@Autowired
 	private MessageService messageService;
 	
-	//메세지 추가
+	//메세지 추가 - POST 방식으로 접근하는 매핑주
 	@PostMapping("/insertMessage")
 	public ResponseEntity<String> addMessage(@RequestBody MessageVO vo){
 		ResponseEntity<String> entity = null;
 		
 		try {
-			//여기 해야함~
+			this.messageService.insertM(vo);//메세지 추가
+			entity = new ResponseEntity<>("SUCCESS", HttpStatus.OK);
 		}catch(Exception e) {
 			e.printStackTrace();
 			entity = new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);

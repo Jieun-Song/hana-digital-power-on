@@ -4,7 +4,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import net.daum.dao.BoardDAO;
 import net.daum.dao.ReplyDAO;
 import net.daum.vo.ReplyVO;
 
@@ -13,11 +15,15 @@ public class ReplyServiceImpl implements ReplyService {
 	
 	@Autowired
 	private ReplyDAO replyDao;
+	@Autowired
+	private BoardDAO boardDao;
 
+	//댓글이 추가되면 댓글 수 1증가 => 스프링 AOP를 통한 트랜잭션 적용대상
+	@Transactional // 트랜잭션 적용 
 	@Override
 	public void insertReply(ReplyVO vo) {
-		this.replyDao.insertReply(vo);
-		
+		this.replyDao.insertReply(vo);//댓글 추가 
+		this.boardDao.updateReplyCnt(vo.getBno(), 1); // 댓글이 추가되면 해당 게시판 번호에 대한 댓글 수 1증
 	}
 
 	@Override
@@ -30,9 +36,12 @@ public class ReplyServiceImpl implements ReplyService {
 		this.replyDao.updateReply(vo);
 	}
 
+	//댓글이삭제되면 댓글 수 1감소 -> aop를통한 트랜잭션 적용대
 	@Override
 	public void deleteReply(int rno) {
-		this.replyDao.deleteReply(rno);
+		int bno = this.replyDao.getBno(rno);//댓글이 삭제되기전에 먼저 댓글번호를 기준으로 게시판 번 호를구
+		this.replyDao.deleteReply(rno);//댓글이 삭제됨 
+		this.boardDao.updateReplyCnt(bno, -1); // 댓글이 삭제되면 게시판 번호에 대한 댓글 수 1감소 
 	}
 
 }

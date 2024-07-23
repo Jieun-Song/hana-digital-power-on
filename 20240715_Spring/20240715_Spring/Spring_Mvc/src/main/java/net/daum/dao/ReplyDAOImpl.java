@@ -41,4 +41,9 @@ public class ReplyDAOImpl implements ReplyDAO {
 		//mybatis에서 delete()메서드는 에코드를 삭제한다.
 		//reply_del은 reply.wml에서 설정할 유일 아이디명이다.
 	}//e댓글삭
+
+	@Override
+	public int getBno(int rno) {
+		return this.sqlSession.selectOne("reply_bno", rno);
+	}//댓글번호를 기준으로게시판 번호를 구함  
 }

@@ -26,7 +26,11 @@
     <th>
 		<a href ="/board/board_cont?bno=${b.bno}&page=${page}&state=cont">${b.title}</a>
 		<%-- board_cont?bno=번호&page=쪽번호&state=cont get방식으로 3개의 파라미터 값이 전달된다. --%>
+		<c:if test = "${b.replycnt != 0}"> <!-- 댓글이 있는 경우 실행  -->
+			&nbsp;<strong>(${b.replycnt})</strong>
+		</c:if>
 	</th>
+	
     <th>${b.writer}</th>
     <th>${b.viewcnt}</th>
     <th>${b.regdate}</th>

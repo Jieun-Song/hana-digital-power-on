@@ -17,7 +17,7 @@ insert into tbl_board (bno, writer, title, content, regdate) values(bno_seq.next
 
 <!-- 게시판 목록  -->
 <select id = "b_list" resultType = "board">
-	SELECT * FROM (SELECT rowNum rNum, bno, writer, title, viewcnt, regdate FROM (
+	SELECT * FROM (SELECT rowNum rNum, bno, writer, title, viewcnt, regdate,replycnt FROM (
 	select * from tbl_board order by bno desc))
 	WHERE rNum &gt;= #{startrow} and rNum &lt;= #{endrow}
 	<!-- &gt;=은 >=, &lt;=은 <= -->
@@ -41,4 +41,11 @@ insert into tbl_board (bno, writer, title, content, regdate) values(bno_seq.next
 <delete id = "b_del">
 	delete from tbl_board where bno = #{bno}
 </delete>
+
+<!-- 댓글 1증가, 감소  -->
+<update id = "upReplyCnt" parameterType = "java.util.HashMap">
+	update tbl_board set replycnt = replycnt + #{count} where bno = #{bno}
+</update>
+
+
 </mapper>

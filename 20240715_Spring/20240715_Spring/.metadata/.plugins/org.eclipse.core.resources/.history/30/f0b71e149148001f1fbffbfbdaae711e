@@ -1,0 +1,28 @@
+package net.daum.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import net.daum.dao.MessageDAO;
+import net.daum.dao.PointDAO;
+import net.daum.vo.MessageVO;
+
+@Service
+public class MessageServiceImpl implements MessageService {
+	
+//	여기서 두개의 DAO로 쪼개짐 
+	@Autowired
+	private MessageDAO messageDao;
+	
+	@Autowired
+	private PointDAO pointDao;
+
+	//스프링 AOP와 트랜잭션 적용 
+	@Override
+	public void insertM(MessageVO vo) {
+		this.messageDao.insertM(vo);//메세지 추
+		
+	}
+	
+	
+}
