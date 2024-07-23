@@ -3,10 +3,10 @@ package org.example.project1.Service;
 import org.assertj.core.api.Assertions;
 import org.example.project1.domain.Member;
 import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Service;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-
 class MemberServiceTest {
 
     MemberService memberService = new MemberService();
