@@ -2,12 +2,13 @@ content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="n
 content_assist_number_of_computers=18
 eclipse.preferences.version=1
 java_keyword=35,144,185
-java_multi_line_comment=53,71,255
-java_single_line_comment=56,92,212
+java_multi_line_comment=234,234,234
+java_single_line_comment=213,213,213
 java_single_line_comment_bold=true
 markOccurrences=false
 org.eclipse.jdt.ui.formatterprofiles.version=23
 semanticHighlighting.class.color=255,121,122
+sourceHoverBackgroundColor=47,47,47
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true
