@@ -1,5 +1,8 @@
 package net.daum;
 
+import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
+
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
@@ -48,12 +51,59 @@ class Boot03ApplicationTests {
 	@Test
 	public void testByWriter() {
 		
-		Collection<BoardVO> blist = this.boardRepo.findByWriter("user00");
-		
-		blist.forEach(b -> {
-			System.out.println(b);
-		});
+//		Collection<BoardVO> blist = this.boardRepo.findByWriter("user00");
+//		
+//		blist.forEach(b -> {
+//			System.out.println(b);
+//		});
 	}//testByWriter() => 글쓴이로 검색
+	
+	//글쓴이에 05가 포함된 게시물을 검색 => '%'+05+'%' like 검
+	@Test
+	public void testByWriterContaining() {
+		
+//		Collection<BoardVO> blist = this.boardRepo.findByWriterContaining("05");
+//		blist.forEach(b -> System.out.println(b));
+	}//testByWriterContaining()
+	
+	//제목에 '2'가 포함되거나 내용에 '5'가 포함된 게시물 검색
+	@Test
+	public void testByTitleOrContentContaining() {
+		
+		//Collection<BoardVO> blist = this.boardRepo.findByTitleContainingOrContentContaining("2","5");
+		//blist.forEach(b -> System.out.println(b));
+	}
+	
+	@Test
+	public void testByTitleAndBno() {
+//		Collection<BoardVO> blist = this.boardRepo.findByTitleContainingAndBnoGreaterThan("5", 5);
+//		blist.forEach(b -> System.out.println(b));
+	}//제목에 5가 포함되어 있고 게시판 번호가 5보다 큰 자료검색 
+	
+	@Test
+	public void testByOrderByDesc() {
+		
+//		Collection<BoardVO> blist = this.boardRepo.findByBnoGreaterThanOrderByBnoDesc(10);
+//		blist.forEach(b -> System.out.println(b));
+		
+	}//bno가 10보다 큰 자료를 내림차순 정렬 
+	
+	@Test
+	public void testByTitle2() {
+//		this.boardRepo.findByTitle("제목").forEach(b->System.out.println(b) );
+	}
+	
+	@Test
+	public void testByContent2() {
+//		this.boardRepo.findByContent("내용").forEach(b->System.out.println(b));
+	}
+	
+	@Test
+	public void testByTitle3() {
+		this.boardRepo.findByTitle2("제목").forEach(arr -> System.out.println(Arrays.toString(arr)));
+	}
 }
+
+
 
 
