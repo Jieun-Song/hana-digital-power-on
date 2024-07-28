@@ -1,8 +1,18 @@
 package net.daum.controller;
 
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import jakarta.servlet.http.HttpServletRequest;
+import net.daum.vo.MemberVO;
 
 @Controller
 public class SampleController {
@@ -32,5 +42,90 @@ public class SampleController {
 	 * 
 	 */
 	
+	@GetMapping("/listTest")
+	public void listTest(Model m) {//리턴타입이 없는 void형이면 매핑주소가 뷰페이지 파일명이 된다.
+		List<String> list = new ArrayList<>();
+		
+		for(int i = 1; i <= 5; i++) {
+			list.add("Data : "+i);
+			
+		}
+		m.addAttribute("name", "타임리프로 복수개의 목록 가져오기");
+		m.addAttribute("list", list);
+	}//listTest()
 	
+	
+	@GetMapping("/sample2")
+	public void sample2(Model model) {
+		MemberVO vo = new MemberVO(123, "u00", "p00", "홍길동", new Timestamp(System.currentTimeMillis()));
+		model.addAttribute("vo", vo);
+	
+	}//sample2()
+	
+	@GetMapping("/sample03")
+	public void sample3(Model m) {
+		
+		List<MemberVO> list = new ArrayList<>();//업캐스팅하면서 컬렉션 제네릭 list를 생성
+		
+		for(int i=0; i<10; i++) {
+			list.add(new MemberVO(123+1,"u0"+1, "po"+1, "홍길동"+i, new Timestamp(System.currentTimeMillis())));
+		}
+		m.addAttribute("list",list);
+		
+	}//sample03()
+	
+	
+	@GetMapping("/sample04")
+	public void sample04(Model m) {
+		
+		List<MemberVO> list = new ArrayList<MemberVO>();
+		
+		for(int i = 0; i<10; i++) {
+			list.add(new MemberVO(i+1, "u000"+ i%3, "p0000"+ i%3, "홍길동" + (i+1), new Timestamp(System.currentTimeMillis())));
+		}
+		m.addAttribute("list", list);
+	}//sample04()
+
+	@GetMapping("/sample05")
+	public void sample05(HttpServletRequest request) {
+		//HttpServletRequest 서블릿api의 기능 -> 사용자 입력폼에서 입력한 값을 서버로 가져오는 용도로 사용
+		
+		String result = "SUCCESS";
+		request.setAttribute("result", result); //result키이름에 Object타입으로 업캐스팅한 값을 저장함.
+		
+	}//sample05()
+	
+	@GetMapping("/sample06")
+	public void sample06(Model m) {
+		
+		List<MemberVO> list = new ArrayList<>();
+		
+		for (int i = 0; i < 10; i++) {
+			list.add(new MemberVO(i, "u0"+1, "p0"+i, "홍길동"+i, new Timestamp(System.currentTimeMillis())));
+		}
+		
+		m.addAttribute("list", list);
+		m.addAttribute("result", "SUCCESS");
+		
+	}
+	
+	@GetMapping("/sample07")
+	public void sample07(Model m) {
+		
+		m.addAttribute("now", new Date());
+		m.addAttribute("price", 123456789);
+		m.addAttribute("title", "this is a sample");
+		m.addAttribute("options", Arrays.asList("AAA","BBB","CCC","DDD"));
+		//Arrays.asList()는 배열을 컬렉션 List로 변환
+		
+	}
 }
+
+
+
+
+
+
+
+
+

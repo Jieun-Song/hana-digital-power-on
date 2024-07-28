@@ -1,17 +1,8 @@
-commentBorder=\#626262 | null | false | false | false | false
+autoProposeCode=<\=\#
 commentText=\#75d5ff | null | true | false | false | false
-declBoder=\#A7EC21 | null | false | false | false | false
-doctypeExternalId=\#cf96eb | null | false | false | false | false
-doctypeExternalPubref=\#f0a253 | null | false | false | false | false
-doctypeExtrenalSysref=\#fbd153 | null | false | false | false | false
-doctypeName=\#fea88f | null | false | false | false | false
 eclipse.preferences.version=1
 entityReference=\#ff84ff | null | false | false | false | false
 newFileTemplateName=New HTML File (5)
-overriddenByCSS=,commentBorder,declBoder,doctypeExternalId,doctypeExternalPubref,doctypeExtrenalSysref,doctypeName,tagAttributeEquals,tagBorder,xmlContent,
-tagAttributeEquals=\#52ca11 | null | false | false | false | false
 tagAttributeName=\#ff7d78 | null | false | false | false | false
 tagAttributeValue=\#17c694 | null | true | false | false | false
-tagBorder=\#808080 | null | false | false | false | false
 tagName=\#7980ff | null | true | false | false | false
-xmlContent=\#D9E8F7 | null | false | false | false | false
