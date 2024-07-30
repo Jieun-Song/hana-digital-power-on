@@ -6,6 +6,8 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
@@ -26,7 +28,7 @@ import lombok.ToString;
 @EqualsAndHashCode(of = "mem_id") //equals(), hashCode(), canEqual() 메서드 자동 생성
 public class MemberVO { // 회원 관리 엔티티빈 클래스
 	
-	@Id//유일키로 사용될 기본키(primary key) 컬럼 지정
+	@Id //유일키로 사용될 기본키(primary key) 컬럼 지정
 	private String mem_id;//회원아이디
 	
 	private String mem_pwd; //회원비번

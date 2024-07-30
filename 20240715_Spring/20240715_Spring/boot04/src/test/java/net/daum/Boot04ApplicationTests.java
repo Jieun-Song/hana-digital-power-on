@@ -36,7 +36,7 @@ class Boot04ApplicationTests {
 			vo.setUpw("pw"+i); // 비번 저장
 			vo.setUname("사용자"+i); //회원이름 저장 
 			
-//			this.memberRepo.save(vo); //20명 회원 저
+//			this.memberRepo.save(vo); //20명 회원 저장 
 		});
 	}//testInsertMember(); 
 	

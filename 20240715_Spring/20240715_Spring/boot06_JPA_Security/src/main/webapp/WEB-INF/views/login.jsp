@@ -93,7 +93,7 @@
 			</table>
 			<div  id = "Login_menu">
 				<input type = "button" value = "비번찾기" onclick = "pwd_find();"/>
-				<input type = "button" value = "회원가입" onclick = "location='member_join';"/>
+				<input type = "button" value = "회원가입" onclick = "location='/member_join';"/>
 			</div>
 		</form>
 	</div>

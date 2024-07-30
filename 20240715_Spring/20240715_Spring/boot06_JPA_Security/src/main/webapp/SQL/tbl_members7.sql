@@ -15,3 +15,4 @@ create table  persistent_logins(
 );
 
 SELECT * FROM persistent_logins;
+
