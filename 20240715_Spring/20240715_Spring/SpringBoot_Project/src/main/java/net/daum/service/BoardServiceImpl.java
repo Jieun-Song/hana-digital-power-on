@@ -6,8 +6,9 @@ import org.springframework.stereotype.Service;
 import net.daum.dao.BoardDAO;
 
 @Service
-public class BoardServiceImpl implements BoardDAO {
-	
+public class BoardServiceImpl implements BoardService {
+
 	@Autowired
 	private BoardDAO boardDao;
+	
 }

@@ -7157,3 +7157,111 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mybatis.s
 2024-07-30 12:10:09,735 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-07-30 12:10:09,735 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2024-07-30 12:10:09,735 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/boot06_JPA_Security/src/test/resources
+2024-07-31 10:11:11,068 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-31 10:11:16,548 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-07-31 10:11:16,560 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-07-31 10:11:16,565 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/boot04/src/test/resources
+2024-07-31 10:11:17,794 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 10:11:17,794 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 10:11:17,794 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-31 10:11:17,806 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 10:11:17,809 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 10:11:17,809 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 10:11:17,809 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/boot06_JPA_Security/src/test/resources
+2024-07-31 10:41:42,552 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-31 10:45:40,733 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier  to /Spring_Mvc/target/classes
+2024-07-31 11:10:47,728 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-31 11:10:52,450 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier  to /Spring_Mvc/target/classes
+2024-07-31 11:17:21,600 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:17:21,600 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:17:21,602 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-31 11:17:21,614 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-07-31 11:17:21,618 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:17:21,618 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:17:21,618 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:17:46,342 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:17:46,343 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:17:46,344 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:17:46,344 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:17:46,346 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:17:46,346 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:17:46,346 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:20:35,322 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:20:35,322 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:20:35,323 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:20:35,324 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:20:35,325 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:20:35,325 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:20:35,325 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:35:32,189 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:35:32,189 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:35:32,190 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:35:32,191 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:35:32,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:35:32,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:35:32,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:36:30,667 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:36:30,668 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:36:30,668 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:36:30,668 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:36:30,670 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:36:30,670 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:36:30,670 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:37:19,329 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:37:19,331 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:37:19,331 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:37:19,331 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:37:19,333 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:37:19,333 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:37:19,333 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:45:26,612 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:45:26,614 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:45:26,614 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:45:26,614 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:45:26,616 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:45:26,617 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:45:26,617 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:46:16,761 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:46:16,795 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:46:16,824 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:47:21,774 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:47:21,775 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:47:21,775 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-31 11:47:21,783 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-07-31 11:47:21,788 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:47:21,788 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:47:21,788 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:47:28,120 [Worker-23: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:47:28,151 [Worker-23: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:47:28,189 [Worker-23: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:49:14,584 [Worker-20: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:49:14,613 [Worker-20: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:49:14,640 [Worker-20: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:50:46,117 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:50:46,118 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:50:46,118 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 11:50:46,119 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-07-31 11:50:46,122 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 11:50:46,122 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 11:50:46,122 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 11:50:51,975 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:50:52,003 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 11:50:52,034 [Worker-24: Launching SpringBoot_Project - SpringBootProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier null to /Spring_Mvc/target/classes
+2024-07-31 12:00:19,739 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 12:00:19,743 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 12:00:19,743 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 12:00:19,747 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 12:00:19,750 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 12:00:19,752 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 12:00:19,753 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-07-31 12:02:44,514 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 12:02:44,516 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 12:02:44,517 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 12:02:44,517 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-07-31 12:02:44,520 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-07-31 12:02:44,520 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-07-31 12:02:44,520 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/SpringBoot_Project/src/test/resources
+2024-08-01 09:41:38,703 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-01 09:41:40,877 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-08-01 09:41:40,891 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src/main/resources to target/classes
+2024-08-01 09:41:40,895 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/Spring_Mvc/src/test/resources

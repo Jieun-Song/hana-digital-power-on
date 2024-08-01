@@ -1,7 +1,0 @@
-package net.daum.vo;
-
-public class TestVO {
-	private int tno;
-	private String title;
-	private String cont;
-}

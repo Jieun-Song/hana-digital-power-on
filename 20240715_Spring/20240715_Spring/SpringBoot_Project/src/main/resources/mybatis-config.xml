@@ -15,6 +15,5 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
    	<typeAliases>
      	<typeAlias type="net.daum.vo.BoardVO" alias = "board"/>
      	<!-- BoardVO빈 클래스의 객체 별칭이름을 board로 설정 -->
-     	<typeAlias type="net.daum.vo.PageVO" alias = "page"/>
    	</typeAliases>
 </configuration>
