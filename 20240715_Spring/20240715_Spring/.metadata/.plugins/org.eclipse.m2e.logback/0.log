@@ -7265,3 +7265,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mybatis.s
 2024-08-01 09:41:40,877 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2024-08-01 09:41:40,891 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src/main/resources to target/classes
 2024-08-01 09:41:40,895 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/jieunsong/Desktop/git/hana-digital-power-on/20240715_Spring/20240715_Spring/Spring_Mvc/src/test/resources
+2024-08-01 09:56:38,163 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-01 09:56:42,195 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Spring_Mvc: net.daum:Spring_Mvc:0.0.1-SNAPSHOT with classifier  to /Spring_Mvc/target/classes
