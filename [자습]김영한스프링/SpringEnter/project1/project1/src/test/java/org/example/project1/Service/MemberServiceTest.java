@@ -1,20 +1,30 @@
 package org.example.project1.Service;
 
+import jakarta.transaction.Transactional;
 import org.assertj.core.api.Assertions;
 import org.example.project1.domain.Member;
+import org.example.project1.repository.MemberRepository;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.stereotype.Service;
+import org.springframework.test.annotation.Commit;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
+@SpringBootTest
+@Transactional
 class MemberServiceTest {
-
-    MemberService memberService = new MemberService();
+    @Autowired
+    MemberRepository memberRepository;
+    @Autowired
+    MemberService memberService;
     @Test
+    @Commit
     void join() {
         //given 뭐가 주어졌을때
         Member member = new Member();
-        member.setName("hello");
+        member.setName("hello1");
 
         //when 이거를 실핼했을때
         Long saveId = memberService.join(member);
