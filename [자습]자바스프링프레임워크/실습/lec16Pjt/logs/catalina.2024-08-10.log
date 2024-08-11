@@ -1,0 +1,374 @@
+10-Aug-2024 23:06:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.93
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 2 2024 21:24:59 UTC
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.93.0
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     14.4.1
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Aug-2024 23:06:36.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Aug-2024 23:06:36.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          22.0.1+8-16
+10-Aug-2024 23:06:36.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Aug-2024 23:06:36.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:06:36.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:06:36.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2024 23:06:36.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2024 23:06:36.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2024 23:06:36.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/temp
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/logging.properties
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61978:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/bin
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+10-Aug-2024 23:06:36.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+10-Aug-2024 23:06:36.052 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jieunsong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Aug-2024 23:06:36.322 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Aug-2024 23:06:36.331 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-8080"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 11 more
+10-Aug-2024 23:06:36.331 INFO [main] org.apache.catalina.startup.Catalina.load [473] 밀리초 내에 서버가 초기화되었습니다.
+10-Aug-2024 23:06:36.359 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Aug-2024 23:06:36.359 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.93]
+10-Aug-2024 23:06:36.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]을(를) 배치합니다.
+10-Aug-2024 23:06:37.039 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+10-Aug-2024 23:06:37.067 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+10-Aug-2024 23:06:37.146 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Aug 10 23:06:37 KST 2024]; root of context hierarchy
+10-Aug-2024 23:06:37.184 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]
+10-Aug-2024 23:06:37.259 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 192 ms
+10-Aug-2024 23:06:37.322 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appServlet': initialization started
+10-Aug-2024 23:06:37.325 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Aug 10 23:06:37 KST 2024]; parent: Root WebApplicationContext
+10-Aug-2024 23:06:37.325 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+10-Aug-2024 23:06:37.619 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.bs.lec16.HomeController.home(org.springframework.ui.Model)
+10-Aug-2024 23:06:37.619 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.bs.lec16.HomeController.login(org.springframework.ui.Model)
+10-Aug-2024 23:06:37.694 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Aug 10 23:06:37 KST 2024]; parent: Root WebApplicationContext
+10-Aug-2024 23:06:37.731 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Aug 10 23:06:37 KST 2024]; parent: Root WebApplicationContext
+10-Aug-2024 23:06:37.774 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+10-Aug-2024 23:06:37.803 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appServlet': initialization completed in 481 ms
+10-Aug-2024 23:06:37.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]의 배치가 [1,445] 밀리초 내에 완료되었습니다.
+10-Aug-2024 23:06:37.816 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1483] 밀리초 내에 시작되었습니다.
+10-Aug-2024 23:06:37.818 SEVERE [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Aug-2024 23:06:37.818 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Aug-2024 23:06:37.819 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Aug-2024 23:06:37.819 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Sat Aug 10 23:06:37 KST 2024]; parent: Root WebApplicationContext
+10-Aug-2024 23:06:37.820 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Aug 10 23:06:37 KST 2024]; root of context hierarchy
+10-Aug-2024 23:06:37.827 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Aug-2024 23:06:37.827 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+10-Aug-2024 23:07:00.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.93
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 2 2024 21:24:59 UTC
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.93.0
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     14.4.1
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Aug-2024 23:07:00.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Aug-2024 23:07:00.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          22.0.1+8-16
+10-Aug-2024 23:07:00.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Aug-2024 23:07:00.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:07:00.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:07:00.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/temp
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/logging.properties
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61982:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/bin
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+10-Aug-2024 23:07:00.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+10-Aug-2024 23:07:00.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+10-Aug-2024 23:07:00.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jieunsong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Aug-2024 23:07:00.401 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Aug-2024 23:07:00.409 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-8080"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 11 more
+10-Aug-2024 23:07:00.409 INFO [main] org.apache.catalina.startup.Catalina.load [364] 밀리초 내에 서버가 초기화되었습니다.
+10-Aug-2024 23:07:00.436 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Aug-2024 23:07:00.436 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.93]
+10-Aug-2024 23:07:00.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]을(를) 배치합니다.
+10-Aug-2024 23:07:01.115 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+10-Aug-2024 23:07:01.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]의 배치가 [699] 밀리초 내에 완료되었습니다.
+10-Aug-2024 23:07:01.144 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [733] 밀리초 내에 시작되었습니다.
+10-Aug-2024 23:07:01.146 SEVERE [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Aug-2024 23:07:01.147 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Aug-2024 23:07:01.147 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Aug-2024 23:07:01.152 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Aug-2024 23:07:01.152 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+10-Aug-2024 23:08:47.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.93
+10-Aug-2024 23:08:47.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 2 2024 21:24:59 UTC
+10-Aug-2024 23:08:47.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.93.0
+10-Aug-2024 23:08:47.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Aug-2024 23:08:47.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     14.4.1
+10-Aug-2024 23:08:47.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Aug-2024 23:08:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Aug-2024 23:08:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          22.0.1+8-16
+10-Aug-2024 23:08:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Aug-2024 23:08:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:08:47.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:08:47.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/temp
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/logging.properties
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61992:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/bin
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+10-Aug-2024 23:08:47.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+10-Aug-2024 23:08:47.581 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jieunsong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Aug-2024 23:08:47.814 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Aug-2024 23:08:47.822 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-8080"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 11 more
+10-Aug-2024 23:08:47.823 INFO [main] org.apache.catalina.startup.Catalina.load [431] 밀리초 내에 서버가 초기화되었습니다.
+10-Aug-2024 23:08:47.848 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Aug-2024 23:08:47.848 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.93]
+10-Aug-2024 23:08:47.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]을(를) 배치합니다.
+10-Aug-2024 23:08:48.643 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+10-Aug-2024 23:08:48.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]의 배치가 [815] 밀리초 내에 완료되었습니다.
+10-Aug-2024 23:08:48.674 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [849] 밀리초 내에 시작되었습니다.
+10-Aug-2024 23:08:48.676 SEVERE [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Aug-2024 23:08:48.677 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Aug-2024 23:08:48.677 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Aug-2024 23:08:48.682 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Aug-2024 23:08:48.683 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+10-Aug-2024 23:09:47.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.93
+10-Aug-2024 23:09:47.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 2 2024 21:24:59 UTC
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.93.0
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     14.4.1
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          22.0.1+8-16
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:09:47.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:09:47.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/temp
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/logging.properties
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62027:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/bin
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+10-Aug-2024 23:09:47.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+10-Aug-2024 23:09:47.571 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jieunsong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Aug-2024 23:09:47.846 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Aug-2024 23:09:47.853 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-8080"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 11 more
+10-Aug-2024 23:09:47.854 INFO [main] org.apache.catalina.startup.Catalina.load [466] 밀리초 내에 서버가 초기화되었습니다.
+10-Aug-2024 23:09:47.883 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Aug-2024 23:09:47.883 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.93]
+10-Aug-2024 23:09:47.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]을(를) 배치합니다.
+10-Aug-2024 23:09:48.597 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+10-Aug-2024 23:09:48.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]의 배치가 [733] 밀리초 내에 완료되었습니다.
+10-Aug-2024 23:09:48.624 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [769] 밀리초 내에 시작되었습니다.
+10-Aug-2024 23:09:48.626 SEVERE [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Aug-2024 23:09:48.627 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Aug-2024 23:09:48.627 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Aug-2024 23:09:48.632 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Aug-2024 23:09:48.632 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+10-Aug-2024 23:10:34.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.93
+10-Aug-2024 23:10:34.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 2 2024 21:24:59 UTC
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.93.0
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     14.4.1
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          22.0.1+8-16
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:10:34.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/jieunsong/Desktop/apache-tomcat-9.0.93
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/temp
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/logging.properties
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Aug-2024 23:10:34.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62066:/Users/jieunsong/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/233.15026.9/IntelliJ IDEA.app/Contents/bin
+10-Aug-2024 23:10:34.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+10-Aug-2024 23:10:34.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stdout.encoding=UTF-8
+10-Aug-2024 23:10:34.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dsun.stderr.encoding=UTF-8
+10-Aug-2024 23:10:34.445 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/jieunsong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Aug-2024 23:10:34.666 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Aug-2024 23:10:34.683 INFO [main] org.apache.catalina.startup.Catalina.load [384] 밀리초 내에 서버가 초기화되었습니다.
+10-Aug-2024 23:10:34.717 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Aug-2024 23:10:34.717 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.93]
+10-Aug-2024 23:10:34.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]을(를) 배치합니다.
+10-Aug-2024 23:10:35.424 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+10-Aug-2024 23:10:35.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/jieunsong/Desktop/git/hana-digital-power-on/[자습]자바스프링프레임워크/실습/lec16Pjt/conf/Catalina/localhost/lec16.xml]의 배치가 [726] 밀리초 내에 완료되었습니다.
+10-Aug-2024 23:10:35.453 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+10-Aug-2024 23:10:35.461 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [774] 밀리초 내에 시작되었습니다.
+10-Aug-2024 23:11:43.427 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Aug-2024 23:11:43.430 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Aug-2024 23:11:43.440 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Aug-2024 23:11:43.445 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.

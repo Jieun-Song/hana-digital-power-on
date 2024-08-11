@@ -10,12 +10,18 @@ public class HomeController {
     @RequestMapping(value = "/")
     public String home(Model model){
 
-        model.addAttribute("key","value");
+        System.out.println("---home() method---");
+
+        model.addAttribute("key","value1");
+
         return "home";
     }
 
     @RequestMapping(value = "/login")
     public String login(Model model){
+        System.out.println("---login() method---");
+
+        model.addAttribute("key", "value2");
 
         return "login";
     }
