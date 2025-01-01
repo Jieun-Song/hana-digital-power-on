@@ -1,10 +1,14 @@
 package hello.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Member {
     private Long id;
     private String name;
     private Grade grade;
-
+    @Autowired
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
