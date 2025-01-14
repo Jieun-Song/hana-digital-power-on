@@ -1,11 +1,6 @@
 package hello.servlet.web.frontcontroller.v4;
 
-import hello.servlet.web.frontcontroller.ModelView;
 import hello.servlet.web.frontcontroller.MyView;
-import hello.servlet.web.frontcontroller.v3.ControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberFormControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberListControllerV3;
-import hello.servlet.web.frontcontroller.v3.controller.MemberSaveControllerV3;
 import hello.servlet.web.frontcontroller.v4.controller.MemberFormControllerV4;
 import hello.servlet.web.frontcontroller.v4.controller.MemberListControllerV4;
 import hello.servlet.web.frontcontroller.v4.controller.MemberSaveControllerV4;
@@ -40,7 +35,8 @@ public class FrontControllerServletV4 extends HttpServlet {
         //paramMap을 넘겨줘ㅑㅇ함
 
         Map<String, String> paramMap = createParamMap(request);
-        Map<String, Object> model = new HashMap<>();
+        Map<String, Object> model = new HashMap<>();//추가
+
         String viewName = controller.process(paramMap, model);
 
         MyView view = viewResolver(viewName);
