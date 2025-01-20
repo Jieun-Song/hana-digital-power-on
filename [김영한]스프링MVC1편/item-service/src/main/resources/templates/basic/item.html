@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <link href="../css/bootstrap.min.css"
@@ -18,6 +18,8 @@
     <div class="py-5 text-center">
         <h2>상품 상세</h2>
     </div>
+<!--  추가  -->
+    <h2 th:if="${param.status}" th:text="'저장 완료'"></h2>
 
     <div>
         <label for="itemId">상품 ID</label>
