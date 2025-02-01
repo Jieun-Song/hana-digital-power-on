@@ -1,9 +1,12 @@
 package jpabook.jpashop.repository;
 
+import jakarta.persistence.EntityManager;
+import jpabook.jpashop.domain.item.Item;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.EntityManager;
+import java.util.List;
+
 
 @Repository
 @RequiredArgsConstructor
@@ -12,7 +15,12 @@ public class ItemRepository {
     private final EntityManager em;
 
     public void save(Item item) {
-        em.persist(item);
+        if (item.getId() == null){
+            em.persist(item);
+        }else{
+            em.merge(item);
+        }
+        // save 또는 update
     }
 
     public Item findOne(Long id) {
